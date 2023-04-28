@@ -65,18 +65,13 @@ color: bisque;
         padding: 20px;
         margin: 10px;
         width: 400px;
-        flex direction: column;
-
 }
 
 #Habilidades{
     width: 400px;
     padding: 20px;
     margin: 10px;
-    float: inline-start;
-    flex direction: column;
 }
-
 
     #Educación{ /*Para darle estilo a la seccion educación, para las secciones se antepone 
         numeral*/
@@ -88,7 +83,6 @@ color: bisque;
         /*Para que muestre barra para desplegable para ver el contenido queno entra en la caja*/
        width: 900px;
        position: sticky;
-       flex direction: row;
     }
     table{ /*Para darle estilo a la tabla*/
         background-color: rgb(83, 92, 92);
