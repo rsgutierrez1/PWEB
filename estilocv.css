@@ -1,17 +1,17 @@
 body{
-    width: 1335px;/*ANCHO */
+    width: 1000px;/*ANCHO */
     max-height: fit-content;
 }
 
 header{ /*Para darle estilo al encabezado*/
     
-    width: 1335px;/*ANCHO */
-    height: 100px;  /*ALTO */ 
-    background-color: black;
-    padding-left: 500px;/*padding espacio entre el contenido y el border*/
-    text-align: justify;
+    width: 1000px;/*ANCHO */
+    height: 150px;  /*ALTO */ 
+    background-color: rgb(96, 195, 199); /*color de fondo*/
+    padding-left: 300px;/*padding espacio entre el contenido y el border*/
+    text-align: justify; /*alineación de texto*/
     padding-top: 20px;
-
+    
 }
 
 h1{ font-size: 50px;/*Tamaño fuente*/
@@ -19,82 +19,95 @@ h1{ font-size: 50px;/*Tamaño fuente*/
    
 }
 
-
-h2{
+a:hover{
+    color: aqua; /*texto se pone de este color cuando pasa por ahí*/
     
-} 
+}
 
-nav{
-    color: aquamarine;
-    padding-right: 25px;
-    border-top-right-radius: 2px;
-    position: relative;
-    top: 20px;    
 
+nav{ /*barra de navegación*/
+    color: aqua;
+    position: absolute;
+    top: 10px;    
+  right: 85px;
+  text-decoration-color: blanchedalmond;
+
+  
 }
 body{
+    width: 1335px;
+    max-height: fit-content;
 
 
 }
 
 h1{ /*Para dar estilo al título*/
-    color: aliceblue;/*color letra*/
+    color:cyan; /*color letra*/
     font: 1, Courier New, Helvetica, sans-serif;
 
 }
 
 img{
     border-radius: 50%; /*Para los bordes redondeados*/
-    ruby-position:inline;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    
     
     
 }
 
 
 h2{
-border-color: blueviolet;
-background-color: darkslategrey;
-color: bisque;
+background-color:rgb(176, 216, 221);
+color: rgb(37, 67, 71);
+width: auto;
 
 
+}
+
+h3{
+color: rgb(60, 220, 241);
+width: auto;
 
 }
 #Datospersonales{
    
-    color:rgb(190, 95, 119);
-        padding: 20px;
-        margin: 10px;
+    color:rgb(83, 109, 116);
         width: 400px;
+        position: absolute;
+        
 }
 
 #Habilidades{
     width: 400px;
-    padding: 20px;
-    margin: 10px;
+    position: absolute;
+    top: 320px;
 }
 
     #Educación{ /*Para darle estilo a la seccion educación, para las secciones se antepone 
         numeral*/
-        color: blanchedalmond;
-        background-color: gray;
         padding: 20px;
         margin: 10px;
-        font-size: small;
+        color: blanchedalmond;
+        background-color: gray;
         /*Para que muestre barra para desplegable para ver el contenido queno entra en la caja*/
-       width: 900px;
-       position: sticky;
+       width: 800px;
+       position: absolute;
+       right: 31px;
+       
     }
     table{ /*Para darle estilo a la tabla*/
         background-color: rgb(83, 92, 92);
         color: rgb(249, 243, 250);
-        font: .9em Arial, Helvetica, sans-serif;
+        font: .7em Arial, Helvetica, sans-serif;
         border: 5px solid #d3cece;
         border-collapse: separate;
           }
 
     caption{/*Estilo titulo de tabla*/
         width: 480px;
-        background-color: blueviolet;
+        background-color: rgb(112, 225, 233);
         border: 5px solid #d3cece;
         border-collapse: separate; /*para los bordes de la tabla separados*/
         font: 2em Arial, Helvetica, sans-serif;
@@ -117,17 +130,33 @@ color: bisque;
     
 
     }
-    #Experiencialaboral{
+    #ExperienciaLaboral{
+        color: blanchedalmond;
+        background-color: gray;
+        padding: 20px;
+        margin: 10px;
+        font-size: small;
+        /*Para que muestre barra para desplegable para ver el contenido queno entra en la caja*/
+        width: 800px;
+        position:absolute;
+        top: 600px;
+        right: 31px;
         
+               
     }
 
 aside{
     width: 400px;
-    padding: 20px;
-        margin: 10px;
+         
+        position: absolute;
+        top: 540px;
+        
 
 }
 footer{
-   
+    position: absolute;
+        top: 895px;
+   text-align: justify;
+   left: 450px;
 
 }

@@ -15,10 +15,10 @@
         <h1> Romina<wbr> Soledad<wbr> Gutierrez<wbr></h1> <!-- Encabezado (head) h1 a h6 para Estructura de títulos y subtítulos siendo h1 el más importante y wbr para que la palabra no se corte-->
           <nav><!-- Para el menú de navegación - href para anclas dentro de la página-->
             <ul>
-            <li><a href = "#Datospersonales"> Datos Personales</a></li>  
-            <li></li><a href="#Educación">Educación</a> </li>
-            <li></li><a href= "#ExperienciaLaboral">Experiencia Laboral</a> </li>
-            <li></li><a href= "#Contacto">Contacto</a> </li>  
+            <li><a href = "#Datospersonales"> Datos Personales</a></li>  <br>
+            <li><a href="#Educación">Educación</a> </li> <br>
+            <li><a href= "#ExperienciaLaboral">Experiencia Laboral</a> </li><br>
+            <li><a href= "#Contacto">Contacto</a> </li>  <br>
           </ul>
           </nav>
       </header>
@@ -37,14 +37,58 @@
            <li>Fecha de Nacimiento: 04 de Octubre de 1986</li>
       </section>
 
-      <section id="Habilidades">
-        <h2>Habilidades</h2>
-          <ul> <!--Para crear una lista sin orden - sin numerar-->
-          <li> Organización</li> <!--li para cada elemento de la lista--> <progress value="95" max="100"></progress>
-          <li>Comunicación Efectiva</li> <progress value="95" max="100"></progress> ><!--Para medir el progreso de una tarea, en este caso lo utilice como para mostrar la aptitud de las habilidades-->
-          <li>Atención al cliente</li> <progress value="95" max="100"></progress>
-          <li>Trabajo en equipo  </li> <progress value="95" max="100"></progress>
-      </section>
+      <section id="Educación">
+        <h2>Educación</h2>    
+        
+          <div class="Universitarios"> <!-- div class para poder dar un estilo personalizado a una parte de la sección-->
+              <h3>Estudios Universitarios</h3>
+                En curso: Carrera Tecnicatura Univesitaria en Tecnologías Web <br>
+                Universidad Nacional del Oeste<br>
+  
+          <table><!--Para insertar una tabla-->
+              <caption>Materias en curso</caption> <!-- Título de tabla-->
+              <tr><!--indica comienzo y fin de fila-->
+              <td>Materia</td> <!-- td cada celda de la fila-->
+              <td>Día</td>
+              <td>Turno</td>
+              </tr>
+              <tr><!--otra fila-->
+              <td>Algoritmos y Estructura de Datos </td>
+              <td>Lunes y Miércoles</td>  
+              <td> Noche</td>
+              </tr>
+              <tr>
+                <td>Lenguajes Formales</td>
+                <td>Martes</td>
+                <td>Mañana</td>
+              </tr>
+            <tr>  
+               <td>Programación WEB</td>
+               <td>Viernes</td>
+               <td>Noche</td>
+  
+              </tr>
+              </table>
+          </div>    
+        
+          <div class="Terciarios">
+          <h3>Estudios Terciarios</h3>
+            Título: Técnico Superior en Seguridad Pública con Orientación Distrital<br> Escuela de Policia Juan Vucetich 
+          </div>
+  
+           
+  
+        </section>
+  
+        <section id="Habilidades">
+          <h2>Habilidades</h2>
+            <ul> <!--Para crear una lista sin orden - sin numerar-->
+            <li> Organización</li> <!--li para cada elemento de la lista--> <progress value="95" max="100"></progress>
+            <li>Comunicación Efectiva</li> <progress value="95" max="100"></progress> <!--Para medir el progreso de una tarea, en este caso lo utilice como para mostrar la aptitud de las habilidades-->
+            <li>Atención al cliente</li> <progress value="95" max="100"></progress>
+            <li>Trabajo en equipo  </li> <progress value="95" max="100"></progress>
+        </section>
+      
 
       <aside id="Contacto">
         <h2>Contacto</h2>
@@ -55,62 +99,16 @@
         E-Mail : <input type="email" minlenght= "5" maxlength="30" placeholder="Ingrese su correo electrónico" /> <br>
         Horario:  <input type="radio" name="mañana"> 08 a 12 hs
         <input type="radio" name="mañana"> 12 a 16 hs <input type="radio" name="mañana"> 16 a 20 hs
-        <br>Mensaje: <br> <textarea cols="60" rows="10" > </textarea>
+        <br>Mensaje: <br> <textarea cols="50" rows="10" > </textarea>
         </form>
       
     </aside>
 
 
-      <section id="Educación">
-      <h2>Educación</h2>    
       
-        <div class="Universitarios"> <!-- div class para poder dar un estilo personalizado a una parte de la sección-->
-            <h3>Estudios Universitarios</h3>
-              En curso: Carrera Tecnicatura Univesitaria en Tecnologías Web <br>
-              Universidad Nacional del Oeste
-
-        <table><!--Para insertar una tabla-->
-            <caption>Materias en curso</caption> <!-- Título de tabla-->
-            <tr><!--indica comienzo y fin de fila-->
-            <td>Materia</td> <!-- td cada celda de la fila-->
-            <td>Día</td>
-            <td>Turno</td>
-            </tr>
-            <tr><!--otra fila-->
-            <td>Algoritmos y Estructura de Datos </td>
-            <td>Lunes y Miércoles</td>  
-            <td> Noche</td>
-            </tr>
-            <tr>
-              <td>Lenguajes Formales</td>
-              <td>Martes</td>
-              <td>Mañana</td>
-            </tr>
-          <tr>  
-             <td>Programación WEB</td>
-             <td>Viernes</td>
-             <td>Noche</td>
-
-            </tr>
-            </table>
-        </div>    
-      
-        <div class="Terciarios">
-        <h3>Estudios Terciarios</h3>
-          Título: Técnico Superior en Seguridad Pública con Orientación Distrital<br> Escuela de Policia Juan Vucetich 
-        </div>
-
-        <div class="Secundarios">
-          <h3>Estudios Secundarios</h3>
-          Título: Bachiller con Orientación en Economía y Gestión de las Organizaciones <br> Instituto Bernandino Rivadavia 
-        </div>    
-
-      </section>
-
       <section id="ExperienciaLaboral">
-      <h2>Experiencia Laboral</h2>    
-      
-      <ol><!-- ol para una lista ordenada-->
+      <h2>Experiencia Laboral</h2>     
+       <ol><!-- ol para una lista ordenada-->
         <li> <!--Para cada elemento de la lista-->
             <p >
               PDS Hurlingham - Ministerio de Seguridad <br> Desde Mar 2014 al presente<br> <!-- br salto de linea--> Puesto: Encargada de Oficina de Expedientes
