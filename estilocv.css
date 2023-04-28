@@ -1,0 +1,139 @@
+body{
+    width: 1335px;/*ANCHO */
+    max-height: fit-content;
+}
+
+header{ /*Para darle estilo al encabezado*/
+    
+    width: 1335px;/*ANCHO */
+    height: 100px;  /*ALTO */ 
+    background-color: black;
+    padding-left: 500px;/*padding espacio entre el contenido y el border*/
+    text-align: justify;
+    padding-top: 20px;
+
+}
+
+h1{ font-size: 50px;/*Tamaño fuente*/
+    color: white;
+   
+}
+
+
+h2{
+    
+} 
+
+nav{
+    color: aquamarine;
+    padding-right: 25px;
+    border-top-right-radius: 2px;
+    position: relative;
+    top: 20px;    
+
+}
+body{
+
+
+}
+
+h1{ /*Para dar estilo al título*/
+    color: aliceblue;/*color letra*/
+    font: 1, Courier New, Helvetica, sans-serif;
+
+}
+
+img{
+    border-radius: 50%; /*Para los bordes redondeados*/
+    ruby-position:inline;
+    
+    
+}
+
+
+h2{
+border-color: blueviolet;
+background-color: darkslategrey;
+color: bisque;
+
+
+
+}
+#Datospersonales{
+   
+    color:rgb(190, 95, 119);
+        padding: 20px;
+        margin: 10px;
+        width: 400px;
+        flex direction: column;
+
+}
+
+#Habilidades{
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    float: inline-start;
+    flex direction: column;
+}
+
+
+    #Educación{ /*Para darle estilo a la seccion educación, para las secciones se antepone 
+        numeral*/
+        color: blanchedalmond;
+        background-color: gray;
+        padding: 20px;
+        margin: 10px;
+        font-size: small;
+        /*Para que muestre barra para desplegable para ver el contenido queno entra en la caja*/
+       width: 900px;
+       position: sticky;
+       flex direction: row;
+    }
+    table{ /*Para darle estilo a la tabla*/
+        background-color: rgb(83, 92, 92);
+        color: rgb(249, 243, 250);
+        font: .9em Arial, Helvetica, sans-serif;
+        border: 5px solid #d3cece;
+        border-collapse: separate;
+          }
+
+    caption{/*Estilo titulo de tabla*/
+        width: 480px;
+        background-color: blueviolet;
+        border: 5px solid #d3cece;
+        border-collapse: separate; /*para los bordes de la tabla separados*/
+        font: 2em Arial, Helvetica, sans-serif;
+    }
+    tr{/*Estilo  de las filas*/
+        width: 150px;
+        height: 20px;
+        border: 2px solid #d3cece;
+        margin: 2px;
+        padding: 2px;
+        
+    }
+    td{/*Estilo celdas, doy estilo a las lineas de las columnas*/
+        width: 150px;
+        height: 20px;
+        border: 1px solid #d3cece;
+        margin: 2px;
+        padding: 2px;
+        
+    
+
+    }
+    #Experiencialaboral{
+        
+    }
+
+aside{
+    width: 400px;
+    padding: 20px;
+        margin: 10px;
+
+}
+footer{
+   
+
+}
