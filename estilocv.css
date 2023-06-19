@@ -1,0 +1,168 @@
+body {
+    width: 1000px;
+}
+header {
+    /*Para darle estilo al encabezado*/
+    width: 100%;
+    /*ANCHO */
+    height: 150px;
+    /*ALTO */
+    background-color: rgb(105, 235, 252);
+    /*color de fondo*/
+    padding-left: 350px;
+    /*padding espacio entre el contenido y el border*/
+    text-align: justify;
+    /*alineación de texto*/
+    padding-top: 20px;
+}
+h1 {
+    font-size: 50px;
+    /*Tamaño fuente*/
+    color: white;
+}
+nav a {
+    /*barra de navegación*/
+    color: #366c7c;
+    float: left;
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    width: 140px;
+}
+a:hover {
+    color: rgb(238, 99, 175); /*texto se pone de este color cuando pasa por ahí*/
+}
+body {
+display: block;
+width: 100%;
+height: 100%;
+}
+#izquierda{
+    float: left;
+    width: 40%;
+    min-height: 100%;
+    background-color: rgb(33, 129, 153);
+    font-style: oblique;
+}
+#derecha{
+    float: left;
+    width: 60%;
+    min-height: 110%;
+    background-color: gray;
+    font-style: oblique;
+}
+h1 {
+    /*Para dar estilo al título*/
+    color: rgb(12, 12, 12);
+    /*color letra*/
+    font: 1, Courier New, Helvetica, sans-serif;
+}
+img {
+    border-radius: 50%;
+    /*Para los bordes redondeados*/
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+h2 {
+    background-color: rgb(176, 216, 221);
+    color: rgb(37, 67, 71);
+    text-decoration: underline;
+    font-style: italic;
+    padding-left: 0px;
+}
+h3 {
+    color: rgb(60, 220, 241);
+    width: auto;
+}
+#Datospersonales {
+    color: rgb(168, 232, 250);
+}
+#Educación {
+    /*Para darle estilo a la seccion educación, para las secciones se antepone numeral*/
+    padding: 9px;
+    color: blanchedalmond;   
+}
+#ExperienciaLaboral{
+    padding: 9px;
+    color: blanchedalmond;     
+}
+
+#Contacto{
+    padding: 9px;
+    padding-left: 0px;
+}
+table {
+    /*Para darle estilo a la tabla*/
+    background-color: rgb(83, 92, 92);
+    color: rgb(249, 243, 250);
+    font: .7em Arial, Helvetica, sans-serif;
+    border: 5px solid #d3cece;
+    border-collapse: separate;
+}
+caption {
+    /*Estilo titulo de tabla*/
+    width: 480px;
+    background-color: rgb(37, 67, 71);
+    border: 5px solid #d3cece;
+    border-collapse: separate;
+    /*para los bordes de la tabla separados*/
+    font: 2em Arial, Helvetica, sans-serif;
+}
+tr {
+    /*Estilo  de las filas*/
+    width: 150px;
+    height: 20px;
+    border: 2px solid #d3cece;
+    margin: 2px;
+    padding: 2px;
+}
+td {
+    /*Estilo celdas, doy estilo a las lineas de las columnas*/
+    width: 150px;
+    height: 20px;
+    border: 1px solid #d3cece;
+    margin: 2px;
+    padding: 2px;
+}
+#ExperienciaLaboral {
+    color: blanchedalmond;
+    padding: 10px; 
+    margin-left: 0px;
+}
+footer {
+   display: block;
+    color: white;
+    margin: 2 px;
+    background-color: black;
+    padding: 7px;
+}
+form label{
+    margin: 5px;
+    display: block;
+    
+}
+form input{
+    width: 80%;
+    display: block;
+    padding: 3px 3px 3px 3px; 
+    border: 2px;
+}
+
+form textarea{
+    width: 80%;
+    display: block;
+    padding: 3px 3px 3px 3px; 
+    border: 2px;
+}
+
+form input[type="submit"]{
+    width: 25%;
+    color: blue;
+    padding: 8px, 16px;
+    margin-top: 32px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: pink;
+}
